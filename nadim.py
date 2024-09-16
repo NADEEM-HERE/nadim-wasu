@@ -63,7 +63,14 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
 def main():
     approval()
     
-    print(Fore.MAGENTA + " XM9RTY NADIM K1NG TOOL ")
+    print(Fore.MAGENTA + " /$$   /$$  /$$$$$$  /$$$$$$$  /$$$$$$ /$$      /$$
+| $$$ | $$ /$$__  $$| $$__  $$|_  $$_/| $$$    /$$$
+| $$$$| $$| $$  \ $$| $$  \ $$  | $$  | $$$$  /$$$$
+| $$ $$ $$| $$$$$$$$| $$  | $$  | $$  | $$ $$/$$ $$
+| $$  $$$$| $$__  $$| $$  | $$  | $$  | $$  $$$| $$
+| $$\  $$$| $$  | $$| $$  | $$  | $$  | $$\  $ | $$
+| $$ \  $$| $$  | $$| $$$$$$$/ /$$$$$$| $$ \/  | $$
+|__/  \__/|__/  |__/|_______/ |______/|__/     |__/ ")
     print(Fore.CYAN + "------------------------------------")
     # Get file paths and other inputs from the user
     tokens_file = input(Fore.YELLOW + "Enter the path to the tokens file: ").strip()
